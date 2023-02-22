@@ -89,7 +89,7 @@ p {
             width: 69vw;
             height: 100%;
             background-color: #333A44;
-            padding: 35% 8% 10% 8%;
+            padding: 35% 8% 6% 8%;
             text-align: left;
             z-index: 10;
          }
@@ -274,6 +274,7 @@ p {
  }
  
  .propreties-part h4 {
+    padding-top: 7%;
      font-weight: 400;
      font-size: 1.4rem;
      color: hsl(216, 17%, 35%);
@@ -353,12 +354,21 @@ p {
     transition: all 0.3s ease-in-out;
  }
 
- .question h4 , span{
+ .question h4 {
     font-size: 1.05rem;
     font-weight: 300;
     padding-bottom: 5%;
     margin-bottom: 10%;
     position: relative;
+ }
+
+ span {
+    font-size: 1.05rem;
+    font-weight: 300;
+    margin-bottom: 5%;
+    position: relative;
+    bottom: 10px;
+    display: block;
  }
 
  #how {
@@ -686,6 +696,7 @@ p {
 
     
     .propreties-part h4 {
+        padding-top: 0%;
         font-size: 1.4rem;
         margin-bottom: 4%;
     }
@@ -723,8 +734,9 @@ p {
     }
 
     span {
-        display: inline;
-    }
+        margin-bottom: 0%;
+        bottom: 0px;
+     }
 
     .question {
         padding: 5% 5% 4.2% 5%;
@@ -987,6 +999,10 @@ p {
         font-size: 1.2rem;
     }
 
+    .propreties-part h4 {
+        padding-top: 0%;
+    }
+
     .propreties-part p {
         margin-bottom: 0;
         font-size: 0.85rem;
@@ -1101,6 +1117,11 @@ p {
         margin-bottom: 5%;
         font-size: 2.5rem;
     }
+
+    span {
+        margin-bottom: 0%;
+        bottom: 0px;
+     }
 
     #title {
         text-align: left;
